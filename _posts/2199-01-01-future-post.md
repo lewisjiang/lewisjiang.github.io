@@ -8,4 +8,10 @@ tags:
   - category2
 ---
 
+
+
 This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+
+![](testimg.jpg)
+
+$$P ( \boldsymbol { x } ) = \frac { 1 } { \sqrt { ( 2 \pi ) ^ { N } \operatorname { det } ( \boldsymbol { \Sigma } ) } } \exp \left( - \frac { 1 } { 2 } ( \boldsymbol { x } - \boldsymbol { \mu } ) ^ { T } \boldsymbol { \Sigma } ^ { - 1 } ( \boldsymbol { x } - \boldsymbol { \mu } ) \right)$$
