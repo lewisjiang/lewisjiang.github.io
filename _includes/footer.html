@@ -21,9 +21,13 @@
     {% endif %}
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
   </ul>
+</div> 
 
-</div>
 
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <a  href="https://clustrmaps.com/site/1awr7"  title="Visit tracker"><img style="width: 10px;" src="//www.clustrmaps.com/map_v2.png?d=lPe_9IN-RXh4mBBzAOAnSQTmzFcFz5rPitxQp7uHVyo&cl=ffffff" /></div>
+
+<!-- <div style="position: relative; top: -24px; left: 480px; width: 10px;">
+  <a href="https://clustrmaps.com/site/1awr7"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=lPe_9IN-RXh4mBBzAOAnSQTmzFcFz5rPitxQp7uHVyo&cl=ffffff" /></a>
+</div> -->
