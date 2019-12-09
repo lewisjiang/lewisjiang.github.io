@@ -103,6 +103,7 @@
                                     </p>
                                     <p style="text-align:center">
                                         [
+                                        <a href="#pubs">Publications</a> &nbsp/&nbsp
                                         <a href="#projects">Projects</a> &nbsp/&nbsp
                                         <a href="#honors">Honors</a> &nbsp/&nbsp
                                         <a href="#courses">Selected Courses</a>
@@ -131,6 +132,53 @@
                             </tr>
                         </tbody>
                     </table>
+
+
+                    <table class="categoryhead">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading id="pubs">Publications</heading>
+                                    <!-- <p>
+                                        I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
+                                    </p> -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="piccategorybody">
+                        <tbody>
+                            
+                            <tr onmouseout="mouse_out('probgrid')" onmouseover="mouse_over('probgrid')">
+                                <td style="padding:20px;width:25%;vertical-align:middle">
+                                    <div class="one">
+                                        <div class="two" id='probgrid'><img src='images/globalmap_afterlp.png' ></div>
+                                        <img src='images/globalmap_beforelp.png' >
+                                    </div>
+                                    <script type="text/javascript">
+                                    mouse_out('probgrid')
+                                </script>
+                                </td>
+                                <td style="padding:20px;width:75%;vertical-align:middle">
+                                    <a>
+                                        <papertitle>A Triangle Feature Based Map-to-map Matching and Loop Closure for 2D Graph SLAM</papertitle>
+                                    </a>, accepted by 2019 IEEE International Conference on Robotics and Biomimetics (ROBIO)
+                                    <br>
+                                    <strong>Binqian Jiang</strong>, Yilong Zhu, <a href="http://www.ram-lab.com/group/#dr-ming-liu">Ming Liu</a>
+                                    <br>
+                                    <a href="https://github.com/lewisjiang/LiDAR_2D_Loop_Closure/tree/master/sample_results">sample results</a>
+                                    <p></p>
+                                    <p>We consider the 2D SLAM problem using only LiDAR and IMU. We proposed a geometric environment descriptor called Triangle Feature, and further devised a real-time 2D loop closure method using this descriptor. The 2D graph SLAM system we developed has better mapping quality than gmapping and hector-SLAM in our experiments.</p>
+                                </td>
+                            </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+
+
+
+
                     <table class="categoryhead">
                         <tbody>
                             <tr>
@@ -200,7 +248,7 @@
                                     </p>
                                 </td>
                             </tr>
-                            <tr onmouseout="mouse_out('probgrid')" onmouseover="mouse_over('probgrid')">
+<!--                             <tr onmouseout="mouse_out('probgrid')" onmouseover="mouse_over('probgrid')">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div class="one">
                                         <div class="two" id='probgrid'><img src='images/globalmap_afterlp.png' ></div>
@@ -213,7 +261,7 @@
                                 <td style="padding:20px;width:75%;vertical-align:middle">
                                     <a>
                                         <papertitle>A Triangle Feature Based Map-to-map Matching and Loop Closure for 2D Graph SLAM</papertitle>
-                                    </a>, submitted
+                                    </a>, accepted by 2019 IEEE International Conference on Robotics and Biomimetics (ROBIO)
                                     <br>
                                     <strong>Binqian Jiang</strong>, Yilong Zhu, <a href="http://www.ram-lab.com/group/#dr-ming-liu">Ming Liu</a>
                                     <br>
@@ -221,7 +269,7 @@
                                     <p></p>
                                     <p>We consider the 2D SLAM problem using only LiDAR and IMU. We proposed a geometric environment descriptor called Triangle Feature, and further devised a real-time 2D loop closure method using this descriptor. The 2D graph SLAM system we developed has better mapping quality than gmapping and hector-SLAM in our experiments.</p>
                                 </td>
-                            </tr>
+                            </tr> -->
                             <tr onmouseout="play_covergif('robocupspin','robocupstill')" onmouseover="play_gif('robocupspin','robocupstill')">
                                 <td style="padding:20px;width:25%;vertical-align:middle">
                                     <div id='robocupspin' class='hidden'><img src="images/robocup_sim_160.gif" ></div>
